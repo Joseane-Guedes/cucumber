@@ -20,6 +20,8 @@ Funcionalidade: Configuração e inserção de produto no carrinho
              Então a página volta ao estado original
 
         Esquema do Cenário: Inserir produto com diferentes combinações de seleções
+            Dado que sou cliente da EBAC-SHOP
+             Quando estou na página de compra do produto
               E faço as seguintes seleções obrigatórias:
                   | Cor      | Tamanho | Quantidade |
                   | Azul     | M       | 3          |
