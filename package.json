@@ -10,9 +10,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^9.2.0"
+    "@types/cucumber": "^7.0.0",
+    "cucumber": "^6.0.7",
+    "hamjest": "^4.0.1"
   },
   "dependencies": {
+    "@cucumber/cucumber": "^9.2.0",
     "selenium-webdriver": "^4.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseane-Guedes/cucumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Joseane-Guedes/cucumber/issues"
+  },
+  "homepage": "https://github.com/Joseane-Guedes/cucumber#readme"
 }
