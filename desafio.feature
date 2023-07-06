@@ -1,3 +1,4 @@
+#language: pt
             Funcionalidade: Somatório de dois números
 
             Como não sei fazer conta de cabeça
