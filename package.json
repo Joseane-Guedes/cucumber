@@ -4,11 +4,15 @@
   "description": "<h1>Repositório criado para estudos - Engenheiro de Qualidade de Software</h1>",
   "main": "index.js",
   "scripts": {
-"test": "cucumber-js"  },
+    "test": "cucumber-js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^9.2.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.10.0"
   }
 }
