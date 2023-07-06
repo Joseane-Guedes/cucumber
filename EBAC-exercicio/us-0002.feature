@@ -23,8 +23,7 @@ Funcionalidade: Login na plataforma EBAC-SHOP
                   | josie123   | password123 |
                   | jane_smith | abcdefg     |
                   | john_doe   | 123456      |
-             Então sou direcionado para a tela correspondente
-
+             Então o sistema realiza as validações correspondentes
 
 
 

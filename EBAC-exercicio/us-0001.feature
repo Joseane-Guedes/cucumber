@@ -6,7 +6,7 @@ Funcionalidade: Configuração e inserção de produto no carrinho
              Quando estou na página de compra do produto
 
         Cenário: Inserir produto no carrinho com seleções de cor, tamanho e quantidade até 10 itens
-              E faço as seleções obrigatórios clicando no botão "Comprar"
+              E faço as seleções obrigatórios clicando no botão "Comprar" com até 10 itens
              Então o produto é inserido com sucesso no carrinho
 
         Cenário: Inserir produto no carrinho com limite de quantidade
