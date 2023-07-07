@@ -13,8 +13,8 @@
             Então o resultado deve ser 4
 
             Esquema do Cenário: soma de dois números
-            Quando eu somar <numero1> com <numero2>
-            Então o resultado deve ser <resultado>
+            Quando eu somar "<numero1>" com "<numero2>"
+            Então o resultado deve ser "<resultado>"
 
             Exemplos:
             | numero1 | numero2 | resultado |
