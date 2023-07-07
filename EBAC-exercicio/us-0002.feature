@@ -10,7 +10,7 @@ Funcionalidade: Login na plataforma EBAC-SHOP
              Então o sistema deve direcionar para a tela de checkout
 
         Cenário: Login com campo inválido
-              E insiro um usuário inválido e uma senha inválida
+              E insiro um usuário inválido ou uma senha inválida
              Então o sistema deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
 
         Esquema do Cenário: Login com diferentes combinações de dados
