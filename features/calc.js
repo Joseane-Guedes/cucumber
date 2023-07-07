@@ -1,14 +1,28 @@
-const { Given, When, Then } = require('@cucumber/cucumber');
+const {
+  Given,
+  When,
+  Then,
+} = require("@cucumber/cucumber");
 
-Given('que eu acesse a calculadora', function () {
-  // Lógica para acessar a calculadora
-});
+Given(
+  "que eu acesse a calculadora",
+  function () {
+    // Lógica para acessar a calculadora
+  }
+);
 
-When('eu somar {int} + {int}', function (num1, num2) {
-  const result = num1 + num2;
-  // Lógica para realizar a soma dos números
-});
+When(
+  "eu somar \\{int} + \\{int}",
+  function () {
+    // Write code here that turns the phrase above into concrete actions
+    return "pending";
+  }
+);
 
-Then('o resultado deve ser {int}', function (result) {
-  // Lógica para verificar o resultado da soma
-});
+Then(
+  "o resultado deve ser \\{int}",
+  function () {
+    // Write code here that turns the phrase above into concrete actions
+    return "pending";
+  }
+);
