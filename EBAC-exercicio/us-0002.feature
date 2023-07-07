@@ -6,12 +6,12 @@ Funcionalidade: Login na plataforma EBAC-SHOP
              Quando acesso a página de login
 
         Cenário: Login com dados válidos
-              E insiro um usuário válido
+              Quando insiro um usuário válido
               E insiro uma senha válida
              Então sou direcionado para a tela de checkout
 
         Cenário: Login com campo inválido
-              E insiro um usuário inválido
+              Quando insiro um usuário inválido
               E insiro uma senha inválida
              Então o sistema exibe uma mensagem de alerta "Usuário ou senha inválidos"
 

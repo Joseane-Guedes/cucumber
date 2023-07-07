@@ -10,12 +10,12 @@ Funcionalidade: Configuração e inserção de produto no carrinho
              Então o produto é inserido com sucesso no carrinho
 
         Cenário: Inserir produto no carrinho com limite de quantidade
-              E eu faço as seleções de cor, tamanho e quantidade, excedendo o limite de 10 produtos
+              Quando eu faço as seleções de cor, tamanho e quantidade, excedendo o limite de 10 produtos
               E clico no botão "Comprar"
              Então o sistema exibe uma mensagem de erro informando o limite de quantidade
 
         Cenário: Limpar seção da página de compra do produto
-              E eu faço as seleções de cor, tamanho e quantidade
+              Quando eu faço as seleções de cor, tamanho e quantidade
               E clico no botão "Limpar"
              Então a página volta ao estado original
 
@@ -28,7 +28,7 @@ Funcionalidade: Configuração e inserção de produto no carrinho
                   | Vermelho | L       | 1          |
                   | Verde    | S       | 5          |
               E clico no botão "Comprar"
-             Então o sistema realiza as validações correspondentes
+             Então o sistema realiza as validações correspondentes 
 
 
 
