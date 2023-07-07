@@ -20,12 +20,12 @@ Funcionalidade: Cadastro no Checkout EBAC-SHOP
         Esquema do Cenário: Cadastro com diferentes combinações de dados
             Dado que sou um cliente da EBAC-SHOP
              Quando estou na tela de cadastro do checkout
-              E preencho <email> e <senha>
-               Então o sistema deve realizar as validações necessárias e emitir <mensagem> correspondente.
+              E preencho "<email>" e "<senha>"
+               Então o sistema deve realizar as validações necessárias e emitir "<mensagem>"correspondente.
                 Exemplos: 
                   | e-mail                   | senha             | mensagem                       |         
-                  | "josie123@gmail.com"     | "password123"     | "e-mail inválido"              |
-                  | "jane_smith@hotmai.com"  | "abcdefg"         | "Usuário ou senha inválidos"   |
+                  | "josie123@gmail.com"     | "password123"     |"e-mail inválido"               |
+                  | "jane_smith@hotmai.com"  | "abcdefg"         |"Usuário ou senha inválidos"    |
                   | ""                       | ""                |"Favor, preencher campos vazios"|
 
 
