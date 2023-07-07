@@ -24,12 +24,11 @@
             Então deve exibir uma mensagem de alerta: "Usuário ou senha inválidos"
 
             Esquema do Cenário: Autenticar multiplos usuários
-            Quando eu digitar o <usuario>
-            E a <senha>
+            Quando eu digitar o <usuario> e a <senha>
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
             | usuario               | senha                | mensagem    |
-            | "joseane@ebac.com.br" | "senhaa@1234567890"" | "Olá Josie" |
-            | "maria@ebac.com.br"   | "senhaa@1234567890"" | "Olá Maria" |
-            | "jose@ebac.com.br"    | "senhaa@1234567890"" | "Olá Jose"  |
+            | "joseane@ebac.com.br" | "senhaa@1234567890" | "Olá Josie" |
+            | "maria@ebac.com.br"   | "senhaa@1234567890" | "Olá Maria" |
+            | "jose@ebac.com.br"    | "senhaa@1234567890" | "Olá Jose"  |

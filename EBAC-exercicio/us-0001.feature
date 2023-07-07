@@ -10,9 +10,9 @@ Funcionalidade: Configuração e inserção de produto no carrinho
              Então o produto deve ser inserido com sucesso no carrinho
 
         Cenário: Inserir produto no carrinho com limite de quantidade de apenas 10 produtos por venda
-              Quando eu faço as seleções de cor, tamanho e quantidade, excedendo o limite de 10 produtos
+              Quando eu faço as seleções de cor "azul", tamanho "M" e quantidade "11"
               E clico no botão "Comprar"
-             Então o sistema deve exibir uma mensagem de erro informando o limite de quantidade
+             Então o sistema deve exibir uma mensagem de erro:"Quantidade acima do limite" 
 
         Cenário: Limpar seção da página de compra do produto
               Quando eu faço as seleções de cor, tamanho e quantidade
@@ -22,13 +22,14 @@ Funcionalidade: Configuração e inserção de produto no carrinho
         Esquema do Cenário: Inserir produto com diferentes combinações de seleções
             Dado que sou cliente da EBAC-SHOP
              Quando estou na página de compra do produto
-              E faço as seguintes seleções obrigatórias:
-                  | Cor      | Tamanho | Quantidade |
-                  | Azul     | M       | 3          |
-                  | Vermelho | L       | 1          |
-                  | Verde    | S       | 5          |
-              E clico no botão "Comprar"
-             Então o sistema deve realizar as validações correspondentes 
+              E seleciono <cor>, <tamanho> e <quantidade> e clico no botão "Comprar"
+             Então o sistema deve realizar as validações necessárias e exibir <mensagem> correspondente.
+             
+             Exemplos: 
+                  | cor         | tamanho   | quantidade | mensagem                         | 
+                  | "azul"      | "M"       | "11"       | "Quantidade acima do limite"     |
+                  | "vermelho"  | "L"       | "1"        | "Obrigado! Volte sempre"         |
+                  | "verde"     | "S "      | "20"       | "Quantidade acima do limite"     |
 
 
 

@@ -16,12 +16,13 @@ Funcionalidade: Login na plataforma EBAC-SHOP
         Esquema do Cenário: Login com diferentes combinações de dados
             Dado que sou cliente da EBAC-SHOP
              Quando acesso a página de login
-              E insiro as seguintes informações de login:
-                  | Usuário    | Senha       |
-                  | josie123   | password123 |
-                  | jane_smith | abcdefg     |
-                  | john_doe   | 123456      |
-             Então o sistema deve realizar as validações correspondentes
+              E insiro <usuario>  e <senha>:
+             Então o sistema deve realizar as validações necessárias e exibir <mensagem> correspondente
+               Exemplos: 
+                  | usuario                | senha          | mensagem                    |      
+                  | "josie123@gmail.com"   | "password123"  | "Bem-vindo"                 |
+                  | "jane_smith@hotmai.com"| "abcdefg"      | "Usuário ou senha inválidos"|
+                  | "john_doe@hotmail.com" | "123456 "      | "Volte-sempre"              |
 
 
 
