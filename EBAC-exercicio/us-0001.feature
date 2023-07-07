@@ -1,5 +1,5 @@
-            #language: pt
-Funcionalidade: Configuração e inserção de produto no carrinho
+        #language: pt
+        Funcionalidade: Configuração e inserção de produto no carrinho
 
         Contexto:
             Dado que sou cliente da EBAC-SHOP
@@ -19,19 +19,17 @@ Funcionalidade: Configuração e inserção de produto no carrinho
               E clico no botão "Limpar"
              Então a página deve voltar ao estado original
 
-        Esquema do Cenário: Inserir produto com diferentes combinações de seleções
+  
+            Esquema do Cenário: Inserir produto com diferentes combinações de seleções
             Dado que sou cliente da EBAC-SHOP
-             Quando estou na página de compra do produto
-              E seleciono <cor>, <tamanho> e <quantidade> e clico no botão "Comprar"
-             Então o sistema deve realizar as validações necessárias e exibir <mensagem> correspondente.
+            Quando estou na página de compra do produto
+            E seleciono a cor "<cor>", tamanho "<tamanho>" e quantidade "<quantidade>" clico no botão "Comprar"
+            Então o sistema deve realizar as validações necessárias e exibir "<mensagem>" correspondente.
              
              Exemplos: 
-                  | cor         | tamanho   | quantidade | mensagem                         | 
-                  | "azul"      | "M"       | "11"       | "Quantidade acima do limite"     |
-                  | "vermelho"  | "L"       | "1"        | "Obrigado! Volte sempre"         |
-                  | "verde"     | "S "      | "20"       | "Quantidade acima do limite"     |
-
-
-
+                | cor         | tamanho   | quantidade | mensagem                         | 
+                | "azul"      | "M"       | "11"       | "Quantidade acima do limite"     |
+                | "vermelho"  | "L"       | "1"        | "Obrigado! Volte sempre"         |
+                | "verde"     | "S "      | "20"       | "Quantidade acima do limite"     |
 
 
